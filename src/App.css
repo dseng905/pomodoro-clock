@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(253, 205, 213);
+  
+}
+
+#title {
+  font-size: 15px;
+  font-family: 'Fredoka One', cursive;
+  margin-bottom: 0;
+}
+
+#author {
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.clock-control {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 20px;
+  align-items: center;
+  background-color: azure;
+  box-shadow: 5px 5px 0px rgb(3, 121, 121);
+}
+
+
+.clock-display {
+  font-family: 'Press Start 2P', cursive;
+  color: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  width: 150px;
+  background-color: rgb(235, 235, 235);
+  text-shadow: 1px 1px 0px gray;
+  box-shadow: -2px -2px 0px gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 2px 5px 2px 5px;
+}
+
+#clock-display-mode {
+  font-size: 10px;
+  margin: 5px 0px 10px 0;
+}
+
+#clock-display-time {
+  font-size: 20px;
+  margin: 0 0 5px 0;
+}
+
+.clock-button {
+  height: 30px;
+  width: 50px;
+  margin: 0 5px 0 5px;
+  box-shadow: 2px 2px 0px gray;
+  border-radius: 5px;
+  outline: none;
+}
+
+.clock-button-set{
+  margin-bottom: 20px;
+}
+
+.Adjuster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adjuster-name {
+  margin: 10px 0 0 0;
+  font-family: 'Fredoka One', cursive;
+  color: rgb(60, 60, 60)
+}
+
+.adjuster-button {
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 1px 1px 0px gray;
+  border-radius: 25%;
+  outline: none;
+ 
+}
+
+.adjuster-display {
+  background-color: rgb(235, 235, 235);
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+  height: 20px;
+  width: 70px;
+  box-shadow: -2px -2px 0px gray;
+  text-shadow: 1px 1px 0px gray;
+  border-radius: 7px;
+  padding-top: 5px;
+}
+
